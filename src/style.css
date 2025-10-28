@@ -1,0 +1,9 @@
+body {
+    user-select: none;
+    width: 600px;
+    height: 300px;
+}
+
+#asciiArt {
+    white-space: pre;
+}
