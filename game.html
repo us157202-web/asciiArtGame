@@ -9,10 +9,16 @@
 </head>
 
 <body>
-    <div id="timeLeft"> 제한 시간 : </div>
-    <div id="asciiArt"></div>
-    <input type="text" id="inputText" autofocus autocapitalize="off" />
-    <script type="module" src="./src/game.js"></script>
+    <div id="container">
+        <div id="timeLeft"> 제한 시간 : </div>
+        <pre id="asciiArt"></pre>
+        <div id="result"></div>
+        <input type="text" id="inputText" autofocus autocapitalize="off" placeholder="타자를 쳐서 아스키아트를 부숴보세요!"
+            autocomplete="off" autocorrect="off" />
+        <div id="restart"><a href="game.html">restart</a></div>
+        <script type="module" src="./src/game.js"></script>
+    </div>
+
 </body>
 
 </html>
